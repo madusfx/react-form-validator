@@ -12,7 +12,7 @@ export function Input({ type, placeholder, onChange, value }: InputProps) {
     <input
       type={type}
       placeholder={placeholder}
-      className="border-transparent bg-teal-800 rounded-sm text-teal-100 focus:outline-none focus:border-transparent p-2"
+      className="w-[20vw] border-transparent bg-teal-800 rounded-sm text-teal-100 focus:outline-none focus:border-transparent p-2"
       onChange={onChange}
       value={value}
     />
